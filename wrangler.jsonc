@@ -1,0 +1,21 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "knobdeck-app",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-10-01",
+  "compatibility_flags": ["global_fetch_strictly_public"],
+  // Registries are static files; only /api/* reaches the Worker.
+  "assets": { "directory": "public", "run_worker_first": ["/api/*"], "not_found_handling": "none" },
+  // Moving to app.knobdeck.xyz: add it here and KEEP this one, because shipped apps and plugin
+  // builds call app.knobdeck.harshalkudale.com until they update.
+  "routes": [{ "pattern": "app.knobdeck.harshalkudale.com", "custom_domain": true }],
+  "workers_dev": false,
+  "observability": { "enabled": true },
+  "vars": {
+    // Public Discord application id. Secret: `wrangler secret put DISCORD_CLIENT_SECRET`.
+    "DISCORD_CLIENT_ID": "1527677329524916424",
+    // Public Google OAuth client id (Desktop app) used by the YouTube plugin; must be the same id
+    // the plugin is built with (GOOGLE_CLIENT_ID repo variable). Secret: `wrangler secret put GOOGLE_CLIENT_SECRET`.
+    "GOOGLE_CLIENT_ID": "894732749854-3bmm29lr28uouspd42fpc5649qqrsqqr.apps.googleusercontent.com"
+  }
+}

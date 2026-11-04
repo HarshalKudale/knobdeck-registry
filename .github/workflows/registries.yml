@@ -1,0 +1,49 @@
+# Manual run that refreshes the registries you tick, in one run and one commit:
+#  - plugins: public/plugins (registry.json + readmes) from the latest knobdeck-plugins release
+#  - themes:  public/themes/registry.json from the latest knobdeck-themes release
+# Committing to master is the deploy: Cloudflare builds this Worker on every push. A ticked registry is
+# always refreshed.
+name: registries
+on:
+  workflow_dispatch:
+    inputs:
+      plugins:
+        description: Update the plugin registry
+        type: boolean
+        default: true
+      themes:
+        description: Update the theme registry
+        type: boolean
+        default: true
+permissions:
+  contents: write
+concurrency:
+  group: registries
+  cancel-in-progress: false
+env:
+  PLUGINS_REPO: HarshalKudale/knobdeck-plugins
+  THEMES_REPO: HarshalKudale/knobdeck-themes
+  GH_TOKEN: ${{ github.token }}
+jobs:
+  registries:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Plugins registry from the latest plugins release
+        if: inputs.plugins
+        run: |
+          tag=$(gh release view --repo "$PLUGINS_REPO" --json tagName -q .tagName)
+          gh release download "$tag" --repo "$PLUGINS_REPO" -D assets -p registry.json -p '*_readme.md'
+          node scripts/build-registry.mjs assets
+      - name: Themes registry from the latest themes release
+        if: inputs.themes
+        run: |
+          tag=$(gh release view --repo "$THEMES_REPO" --json tagName -q .tagName)
+          rm -rf public/themes
+          gh release download "$tag" --repo "$THEMES_REPO" -p registry.json -D public/themes
+          jq -e '.themes | length > 0' public/themes/registry.json > /dev/null
+      - name: Commit registries
+        run: |
+          git config user.name HarshalKudale && git config user.email harshalkudale56@gmail.com
+          git add -A public/plugins public/themes
+          git diff --cached --quiet || { git commit -m "Registries: plugins $(jq -r .tag public/plugins/registry.json), themes $(jq -r .tag public/themes/registry.json 2>/dev/null)" && git push; }

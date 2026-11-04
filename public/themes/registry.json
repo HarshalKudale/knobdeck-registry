@@ -1,0 +1,50 @@
+{
+  "tag": "v2026.11.03-1412",
+  "themes": [
+    {
+      "id": "clean-circle",
+      "name": "Clean Circle",
+      "author": "Simon Schneegans",
+      "version": "1.0.0",
+      "sha256": "5906e78c630c8ce4c612d68c020c48dab25990db9246240750327c847211a32c",
+      "preview": "https://raw.githubusercontent.com/HarshalKudale/knobdeck-themes/master/previews/clean-circle.gif",
+      "zipUrl": "https://github.com/HarshalKudale/knobdeck-themes/releases/download/v2026.11.03-1412/clean-circle.zip"
+    },
+    {
+      "id": "kando-default",
+      "name": "Kando Default",
+      "author": "Simon Schneegans",
+      "version": "1.0.0",
+      "sha256": "5a148bf3c41e6571bc066446e5d81e7f6bd160d19fe4fa4eb0adf67d7486ebff",
+      "preview": "https://raw.githubusercontent.com/HarshalKudale/knobdeck-themes/master/previews/kando-default.gif",
+      "zipUrl": "https://github.com/HarshalKudale/knobdeck-themes/releases/download/v2026.11.03-1412/kando-default.zip"
+    },
+    {
+      "id": "neon-lights",
+      "name": "Neon Lights",
+      "author": "Simon Schneegans",
+      "version": "1.0.0",
+      "sha256": "11ada5d246b9cabbd610266bbe7fe47b7c63cdc44c47ac24341e42c27e5a11f8",
+      "preview": "https://raw.githubusercontent.com/HarshalKudale/knobdeck-themes/master/previews/neon-lights.gif",
+      "zipUrl": "https://github.com/HarshalKudale/knobdeck-themes/releases/download/v2026.11.03-1412/neon-lights.zip"
+    },
+    {
+      "id": "purity",
+      "name": "Purity",
+      "author": "Luctarie",
+      "version": "1.0.0",
+      "sha256": "118865e6fd95c243d9e7a888089890b40093da292f6ad28bb4e76ad99a837a45",
+      "preview": "https://raw.githubusercontent.com/HarshalKudale/knobdeck-themes/master/previews/purity.gif",
+      "zipUrl": "https://github.com/HarshalKudale/knobdeck-themes/releases/download/v2026.11.03-1412/purity.zip"
+    },
+    {
+      "id": "rainbow-labels",
+      "name": "Rainbow Labels",
+      "author": "Simon Schneegans",
+      "version": "1.0.0",
+      "sha256": "b2dfd36f3dc2fb8d84c1e9fb9edf8eefc445ff51fccd137869a62cc4ff6c69e4",
+      "preview": "https://raw.githubusercontent.com/HarshalKudale/knobdeck-themes/master/previews/rainbow-labels.gif",
+      "zipUrl": "https://github.com/HarshalKudale/knobdeck-themes/releases/download/v2026.11.03-1412/rainbow-labels.zip"
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+# Registries change on release; let clients and the CDN revalidate often.
+/plugins/registry.json
+  Cache-Control: public, max-age=60, s-maxage=600, stale-while-revalidate=86400
+/themes/registry.json
+  Cache-Control: public, max-age=60, s-maxage=600, stale-while-revalidate=86400
