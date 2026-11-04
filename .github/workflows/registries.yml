@@ -1,4 +1,4 @@
-# Manual run that refreshes the registries you tick, in one run and one commit:
+# Manual run (Actions > registries > Run workflow) that refreshes the registries you tick, in one run and one commit:
 #  - plugins: public/plugins (registry.json + readmes) from the latest knobdeck-plugins release
 #  - themes:  public/themes/registry.json from the latest knobdeck-themes release
 # Committing to master is the deploy: Cloudflare builds this Worker on every push. A ticked registry is
