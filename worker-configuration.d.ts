@@ -6,6 +6,9 @@ interface __BaseEnv_Env {
 	GOOGLE_CLIENT_ID: "894732749854-3bmm29lr28uouspd42fpc5649qqrsqqr.apps.googleusercontent.com";
 	DISCORD_CLIENT_SECRET: string;
 	GOOGLE_CLIENT_SECRET: string;
+	ASSETS: Fetcher;
+	RELEASES: R2Bucket;
+	DOWNLOADS: AnalyticsEngineDataset;
 }
 declare namespace Cloudflare {
 	interface GlobalProps {

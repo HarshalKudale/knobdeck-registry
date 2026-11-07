@@ -4,8 +4,13 @@
   "main": "src/index.ts",
   "compatibility_date": "2026-10-01",
   "compatibility_flags": ["global_fetch_strictly_public"],
-  // Registries are static files; only /api/* reaches the Worker.
-  "assets": { "directory": "public", "run_worker_first": ["/api/*"], "not_found_handling": "none" },
+  // Registries are static files; /api/*, /updates/* and /download/* reach the Worker.
+  "assets": { "directory": "public", "binding": "ASSETS", "run_worker_first": ["/api/*", "/updates/*", "/download/*"], "not_found_handling": "none" },
+  // Release files and update manifests, uploaded by the app repo's release workflow. The bucket
+  // must exist before this deploys (`npx wrangler r2 bucket create knobdeck-releases`).
+  "r2_buckets": [{ "binding": "RELEASES", "bucket_name": "knobdeck-releases" }],
+  // One data point per download (see README "Download counts").
+  "analytics_engine_datasets": [{ "binding": "DOWNLOADS", "dataset": "knobdeck_downloads" }],
   // Moving to app.knobdeck.xyz: add it here and KEEP this one, because shipped apps and plugin
   // builds call app.knobdeck.harshalkudale.com until they update.
   "routes": [{ "pattern": "app.knobdeck.harshalkudale.com", "custom_domain": true }],
