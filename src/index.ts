@@ -2,14 +2,38 @@
 // landing/payments site so registry updates never redeploy checkout or licensing.
 //   /plugins/registry.json, /plugins/<id>/readme.md, /themes/registry.json  static (public/)
 //   POST /api/discord/token, POST /api/google/token                          OAuth secret holders
+//   /updates/darwin/<arch>/<current version>   macOS updater (tauri-plugin-updater): 204 or the update
+//   /updates/<os>/latest.json                  the offered release's update file: public/updates/<os>/latest.json
+//                                              is a pointer {"version"} (committed by the app repo's release
+//                                              workflow), resolved to R2 `releases/<version>/update-<os>.json`
+//   /download/<version>/<file>                 release files (R2 `releases/<version>/<file>`), cached
+//                                              at the edge and counted in Analytics Engine
+//   /download/mac, /download/linux/<deb|rpm|arch>   302 to the offered version's file
+// The release workflow in the (private) app repo uploads the files to R2 and commits the pointers here.
 
-function json(body: unknown, status = 200) {
-  return Response.json(body, { status, headers: { "Cache-Control": "no-store" } });
+function json(body: unknown, status = 200, cache = "no-store") {
+  return Response.json(body, { status, headers: { "Cache-Control": cache } });
 }
 
 export default {
-  async fetch(request, env): Promise<Response> {
-    const { pathname } = new URL(request.url);
+  async fetch(request, env, ctx): Promise<Response> {
+    const url = new URL(request.url);
+    const { pathname } = url;
+    if (pathname.startsWith("/updates/") || pathname.startsWith("/download/")) {
+      if (request.method !== "GET" && request.method !== "HEAD") return json({ error: "method not allowed" }, 405);
+      const mac = pathname.match(/^\/updates\/darwin\/(aarch64|x86_64)\/([0-9][\w.+-]*)$/);
+      if (mac) return macUpdate(env, ctx, mac[2]);
+      const manifest = pathname.match(/^\/updates\/(darwin|linux|windows)\/latest\.json$/);
+      if (manifest) {
+        const m = await readManifest(env, ctx, manifest[1]);
+        return m ? json(m, 200, "public, max-age=300") : new Response(null, { status: 204 });
+      }
+      const alias = pathname.match(/^\/download\/(mac|linux\/(deb|rpm|arch))$/);
+      if (alias) return latestRedirect(env, ctx, url, alias[2] ?? "mac");
+      const file = pathname.match(/^\/download\/(\d+\.\d+\.\d+)\/([\w.+-]+)$/);
+      if (file) return download(request, env, ctx, file[1], file[2]);
+      return json({ error: "not found" }, 404);
+    }
     if (pathname === "/api/discord/token" || pathname === "/api/google/token") {
       if (request.method !== "POST") return json({ error: "method not allowed" }, 405);
       return pathname === "/api/discord/token" ? discordToken(request, env) : googleToken(request, env);
@@ -17,6 +41,130 @@ export default {
     return json({ error: "not found" }, 404);
   },
 } satisfies ExportedHandler<Env>;
+
+/** `1.10.0` > `1.9.9`. Pre-release and build suffixes are ignored. */
+function newer(candidate: string, current: string) {
+  const parts = (v: string) => v.replace(/^v/, "").split(/[.+-]/).slice(0, 3).map((p) => parseInt(p, 10) || 0);
+  const [a, b] = [parts(candidate), parts(current)];
+  for (let i = 0; i < 3; i++) if ((a[i] ?? 0) !== (b[i] ?? 0)) return (a[i] ?? 0) > (b[i] ?? 0);
+  return false;
+}
+
+type Manifest = Record<string, unknown> & { version?: string };
+
+/**
+ * The offered release's update file. `public/updates/<os>/latest.json` (static, in this repo) names
+ * the version; its `releases/<version>/update-<os>.json` comes from R2, cached at the edge for 5
+ * minutes so app polls don't each cost an R2 read. No pointer, or a broken one, is null (= nothing
+ * to offer).
+ */
+async function readManifest(env: Env, ctx: ExecutionContext, os: string): Promise<Manifest | null> {
+  const ptr = await env.ASSETS.fetch(new Request(`https://assets.local/updates/${os}/latest.json`));
+  if (!ptr.ok) return null;
+  const version = ((await ptr.json().catch(() => null)) as { version?: unknown } | null)?.version;
+  if (typeof version !== "string" || !/^\d+\.\d+\.\d+$/.test(version)) return null;
+  const key = new Request(`https://manifest.internal/${version}/${os}`);
+  const cache = caches.default;
+  const hit = await cache.match(key);
+  let text: string;
+  if (hit) {
+    text = await hit.text();
+  } else {
+    const obj = await env.RELEASES.get(`releases/${version}/update-${os}.json`);
+    text = obj ? await obj.text() : "null";
+    ctx.waitUntil(cache.put(key, new Response(text, { headers: { "Cache-Control": "public, max-age=300" } })));
+  }
+  try {
+    const m = JSON.parse(text) as Manifest | null;
+    return m && m.version === version ? m : null;
+  } catch {
+    return null;
+  }
+}
+
+/**
+ * The macOS app asks here (tauri.macos.conf.json): `{version, notes, pub_date, url, signature}`
+ * (one universal build serves both architectures). Tauri expects 204 when there is nothing newer.
+ */
+async function macUpdate(env: Env, ctx: ExecutionContext, current: string) {
+  const latest = await readManifest(env, ctx, "darwin");
+  const version = latest?.version ?? "";
+  if (!version || typeof latest?.url !== "string" || typeof latest?.signature !== "string" || !newer(version, current)) {
+    return new Response(null, { status: 204, headers: { "Cache-Control": "no-store" } });
+  }
+  return json({ version, notes: latest.notes ?? "", pub_date: latest.pub_date, url: latest.url, signature: latest.signature });
+}
+
+/** `/download/mac` (the website's button) and `/download/linux/<kind>`: 302 to the offered version. */
+async function latestRedirect(env: Env, ctx: ExecutionContext, url: URL, kind: string) {
+  const m = await readManifest(env, ctx, kind === "mac" ? "darwin" : "linux");
+  const target = kind === "mac"
+    ? (m?.dmg as string | undefined)
+    : ((m?.packages as Record<string, { url?: string }> | undefined)?.[kind]?.url);
+  if (!target) return json({ error: "no release yet" }, 404);
+  return Response.redirect(new URL(target, url.origin).toString(), 302);
+}
+
+const CONTENT_TYPES: [RegExp, string][] = [
+  [/\.dmg$/, "application/x-apple-diskimage"],
+  [/\.deb$/, "application/vnd.debian.binary-package"],
+  [/\.rpm$/, "application/x-rpm"],
+  [/\.(tar\.gz|tgz)$/, "application/gzip"],
+  [/\.zst$/, "application/zstd"],
+  [/\.(sig|json)$/, "text/plain; charset=utf-8"],
+];
+
+/**
+ * A release file from R2. Versioned paths never change, so they're cached at the edge for a year
+ * (a cache hit costs no R2 read). Every GET that starts at byte 0 is counted, cached or not; resumed
+ * range requests aren't, so one download counts once.
+ */
+async function download(request: Request, env: Env, ctx: ExecutionContext, version: string, name: string) {
+  const range = request.headers.get("Range");
+  const count = () => {
+    if (request.method !== "GET" || (range && !/^bytes=0-/.test(range)) || name.endsWith(".sig")) return;
+    const cf = request.cf as { country?: string } | undefined;
+    // Analytics Engine: query by blob1 (file), blob2 (version); see README "Download counts".
+    env.DOWNLOADS?.writeDataPoint({
+      blobs: [name, version, cf?.country ?? "", request.headers.get("User-Agent")?.slice(0, 120) ?? ""],
+      doubles: [1],
+      indexes: [version],
+    });
+  };
+  const cacheKey = new Request(new URL(`/download/${version}/${name}`, request.url), { headers: range ? { Range: range } : {} });
+  const cache = caches.default;
+  const hit = await cache.match(cacheKey);
+  if (hit) {
+    count();
+    return hit;
+  }
+
+  const key = `releases/${version}/${name}`;
+  const obj = range ? await env.RELEASES.get(key, { range: request.headers }) : await env.RELEASES.get(key);
+  if (!obj) return json({ error: "not found" }, 404);
+  count();
+  const headers = new Headers();
+  obj.writeHttpMetadata(headers);
+  if (!headers.has("Content-Type")) headers.set("Content-Type", CONTENT_TYPES.find(([re]) => re.test(name))?.[1] ?? "application/octet-stream");
+  headers.set("Cache-Control", "public, max-age=31536000, immutable");
+  headers.set("ETag", obj.httpEtag);
+  headers.set("Accept-Ranges", "bytes");
+  if (!/\.(sig|json)$/.test(name)) headers.set("Content-Disposition", `attachment; filename="${name}"`);
+  const body = request.method === "HEAD" ? null : (obj as R2ObjectBody).body;
+
+  if (range && obj.range) {
+    const r = obj.range as { offset?: number; length?: number; suffix?: number };
+    const offset = r.suffix !== undefined ? obj.size - r.suffix : (r.offset ?? 0);
+    const length = r.length ?? obj.size - offset;
+    headers.set("Content-Range", `bytes ${offset}-${offset + length - 1}/${obj.size}`);
+    headers.set("Content-Length", String(length));
+    return new Response(body, { status: 206, headers });
+  }
+  headers.set("Content-Length", String(obj.size));
+  const res = new Response(body, { headers });
+  if (request.method === "GET") ctx.waitUntil(cache.put(new Request(cacheKey.url), res.clone()));
+  return res;
+}
 
 const DISCORD_TOKEN_URL = "https://discord.com/api/oauth2/token";
 // Must match the redirect URI registered on the Discord application.
