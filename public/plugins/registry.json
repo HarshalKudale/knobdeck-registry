@@ -1,5 +1,5 @@
 {
-  "tag": "v2026.11.08-1707",
+  "tag": "v2026.11.10-0720",
   "plugins": [
     {
       "id": "discord-linux",
@@ -9,11 +9,11 @@
       "version": "1.1.0",
       "author": "KnobDeck",
       "repositoryUrl": "https://github.com/HarshalKudale/knobdeck-plugins",
-      "artifactUrl": "https://github.com/HarshalKudale/knobdeck-plugins/releases/download/v2026.11.08-1707/discord_linux_1.1.0.knobdeck",
+      "artifactUrl": "https://github.com/HarshalKudale/knobdeck-plugins/releases/download/v2026.11.10-0720/discord_linux_1.1.0.knobdeck",
       "iconUrl": "https://raw.githubusercontent.com/HarshalKudale/knobdeck-plugins/master/discord/icons/discord-logo.svg",
       "icon": "discord-logo.svg",
       "readmeUrl": "https://app.knobdeck.harshalkudale.com/plugins/discord-linux/readme.md",
-      "sha256": "b4fc6ec5ce07efc38b1de10ef62107125ea40842fdd8e77a4793fa5212aa2af5",
+      "sha256": "54ece769a33262bbdffd4a45401f4ddda12a4185f9208f8737dfee7735444335",
       "tags": [
         "Communication",
         "Voice"
@@ -33,11 +33,11 @@
       "version": "1.1.0",
       "author": "KnobDeck",
       "repositoryUrl": "https://github.com/HarshalKudale/knobdeck-plugins",
-      "artifactUrl": "https://github.com/HarshalKudale/knobdeck-plugins/releases/download/v2026.11.08-1707/discord_macos_1.1.0.knobdeck",
+      "artifactUrl": "https://github.com/HarshalKudale/knobdeck-plugins/releases/download/v2026.11.10-0720/discord_macos_1.1.0.knobdeck",
       "iconUrl": "https://raw.githubusercontent.com/HarshalKudale/knobdeck-plugins/master/discord/icons/discord-logo.svg",
       "icon": "discord-logo.svg",
       "readmeUrl": "https://app.knobdeck.harshalkudale.com/plugins/discord-macos/readme.md",
-      "sha256": "db2e812cc1cf0468cd8d4efbbba19a159623a82983c7ab87928b3e5fe172f283",
+      "sha256": "cfa76aa12523552aa87351688697a37e322ff23c11a4ec3a6196ff072f18ae3d",
       "tags": [
         "Communication",
         "Voice"
@@ -57,11 +57,11 @@
       "version": "1.1.0",
       "author": "KnobDeck",
       "repositoryUrl": "https://github.com/HarshalKudale/knobdeck-plugins",
-      "artifactUrl": "https://github.com/HarshalKudale/knobdeck-plugins/releases/download/v2026.11.08-1707/discord_windows_1.1.0.knobdeck",
+      "artifactUrl": "https://github.com/HarshalKudale/knobdeck-plugins/releases/download/v2026.11.10-0720/discord_windows_1.1.0.knobdeck",
       "iconUrl": "https://raw.githubusercontent.com/HarshalKudale/knobdeck-plugins/master/discord/icons/discord-logo.svg",
       "icon": "discord-logo.svg",
       "readmeUrl": "https://app.knobdeck.harshalkudale.com/plugins/discord-windows/readme.md",
-      "sha256": "ec585dc3d397d558dc074f998dc63b81a749aebdeb1b46ac042023d855a46a1c",
+      "sha256": "df3d807bad754b5934cae043d17b38f7ff73755ca23a2557cf55691885a8c323",
       "tags": [
         "Communication",
         "Voice"
@@ -81,11 +81,11 @@
       "version": "1.1.0",
       "author": "KnobDeck",
       "repositoryUrl": "https://github.com/HarshalKudale/knobdeck-plugins",
-      "artifactUrl": "https://github.com/HarshalKudale/knobdeck-plugins/releases/download/v2026.11.08-1707/spotify_linux_1.1.0.knobdeck",
+      "artifactUrl": "https://github.com/HarshalKudale/knobdeck-plugins/releases/download/v2026.11.10-0720/spotify_linux_1.1.0.knobdeck",
       "iconUrl": null,
       "icon": "music",
       "readmeUrl": "https://app.knobdeck.harshalkudale.com/plugins/spotify-linux/readme.md",
-      "sha256": "0f8713e94ba9f0aae204106a95ab7867900b20be8ccf9c5019300eb63b468119",
+      "sha256": "ad14f98bc474d16e0d121f581f329da6b953278224900fa8601d2b76b40ef45f",
       "tags": [
         "Music",
         "Media"
@@ -105,11 +105,11 @@
       "version": "1.1.0",
       "author": "KnobDeck",
       "repositoryUrl": "https://github.com/HarshalKudale/knobdeck-plugins",
-      "artifactUrl": "https://github.com/HarshalKudale/knobdeck-plugins/releases/download/v2026.11.08-1707/spotify_macos_1.1.0.knobdeck",
+      "artifactUrl": "https://github.com/HarshalKudale/knobdeck-plugins/releases/download/v2026.11.10-0720/spotify_macos_1.1.0.knobdeck",
       "iconUrl": null,
       "icon": "music",
       "readmeUrl": "https://app.knobdeck.harshalkudale.com/plugins/spotify-macos/readme.md",
-      "sha256": "6360b604c841a12ad72e05b42fac366fd80f9056da5e90f785acb0ea0e344921",
+      "sha256": "32cd160703d365c02e8549015ce4a6bdd66fca608138bd928ad385fee821b3e3",
       "tags": [
         "Music",
         "Media"
@@ -129,11 +129,11 @@
       "version": "1.1.0",
       "author": "KnobDeck",
       "repositoryUrl": "https://github.com/HarshalKudale/knobdeck-plugins",
-      "artifactUrl": "https://github.com/HarshalKudale/knobdeck-plugins/releases/download/v2026.11.08-1707/spotify_windows_1.1.0.knobdeck",
+      "artifactUrl": "https://github.com/HarshalKudale/knobdeck-plugins/releases/download/v2026.11.10-0720/spotify_windows_1.1.0.knobdeck",
       "iconUrl": null,
       "icon": "music",
       "readmeUrl": "https://app.knobdeck.harshalkudale.com/plugins/spotify-windows/readme.md",
-      "sha256": "f5720251526fd5c98729a7a694ff21047537c4839c7d2279d96dc43f16b20a89",
+      "sha256": "7ef1da53f665b2f2ff315d698902abdb32beacb83960c6668a4fc60b82d6e3e4",
       "tags": [
         "Music",
         "Media"
@@ -153,11 +153,11 @@
       "version": "1.2.0",
       "author": "KnobDeck",
       "repositoryUrl": "https://github.com/HarshalKudale/knobdeck-plugins",
-      "artifactUrl": "https://github.com/HarshalKudale/knobdeck-plugins/releases/download/v2026.11.08-1707/obs_linux_1.2.0.knobdeck",
+      "artifactUrl": "https://github.com/HarshalKudale/knobdeck-plugins/releases/download/v2026.11.10-0720/obs_linux_1.2.0.knobdeck",
       "iconUrl": "https://raw.githubusercontent.com/HarshalKudale/knobdeck-plugins/master/obs/icons/obs-logo.svg",
       "icon": "obs-logo.svg",
       "readmeUrl": "https://app.knobdeck.harshalkudale.com/plugins/obs-linux/readme.md",
-      "sha256": "a522ee18419faaeb0a6ad14eaa2ad3b65b310bd65a4455c313cb55d187671ca9",
+      "sha256": "c9094c4026a613796525ba71908f985e6209579f9df63a19813c67192c2ff36c",
       "tags": [
         "Streaming",
         "Broadcast"
@@ -177,11 +177,11 @@
       "version": "1.2.0",
       "author": "KnobDeck",
       "repositoryUrl": "https://github.com/HarshalKudale/knobdeck-plugins",
-      "artifactUrl": "https://github.com/HarshalKudale/knobdeck-plugins/releases/download/v2026.11.08-1707/obs_macos_1.2.0.knobdeck",
+      "artifactUrl": "https://github.com/HarshalKudale/knobdeck-plugins/releases/download/v2026.11.10-0720/obs_macos_1.2.0.knobdeck",
       "iconUrl": "https://raw.githubusercontent.com/HarshalKudale/knobdeck-plugins/master/obs/icons/obs-logo.svg",
       "icon": "obs-logo.svg",
       "readmeUrl": "https://app.knobdeck.harshalkudale.com/plugins/obs-macos/readme.md",
-      "sha256": "ca1086ba98a3f3a3b6516517a53ceefa619a04adc1155f5e21c1149919196d76",
+      "sha256": "763fdc1f4f127101e4d66147c00d546082d234cfb50edb89b5ce74edd388db50",
       "tags": [
         "Streaming",
         "Broadcast"
@@ -201,11 +201,11 @@
       "version": "1.2.0",
       "author": "KnobDeck",
       "repositoryUrl": "https://github.com/HarshalKudale/knobdeck-plugins",
-      "artifactUrl": "https://github.com/HarshalKudale/knobdeck-plugins/releases/download/v2026.11.08-1707/obs_windows_1.2.0.knobdeck",
+      "artifactUrl": "https://github.com/HarshalKudale/knobdeck-plugins/releases/download/v2026.11.10-0720/obs_windows_1.2.0.knobdeck",
       "iconUrl": "https://raw.githubusercontent.com/HarshalKudale/knobdeck-plugins/master/obs/icons/obs-logo.svg",
       "icon": "obs-logo.svg",
       "readmeUrl": "https://app.knobdeck.harshalkudale.com/plugins/obs-windows/readme.md",
-      "sha256": "4adb9e98258463287e24b55559f7df182e21a793ac0cad2ca650f36a2ca61aea",
+      "sha256": "f21486c01e51797e8193dff94b7c90f227f7d407dfb1b250f24022479a996a92",
       "tags": [
         "Streaming",
         "Broadcast"
@@ -225,11 +225,11 @@
       "version": "1.1.0",
       "author": "KnobDeck",
       "repositoryUrl": "https://github.com/HarshalKudale/knobdeck-plugins",
-      "artifactUrl": "https://github.com/HarshalKudale/knobdeck-plugins/releases/download/v2026.11.08-1707/twitch_linux_1.1.0.knobdeck",
+      "artifactUrl": "https://github.com/HarshalKudale/knobdeck-plugins/releases/download/v2026.11.10-0720/twitch_linux_1.1.0.knobdeck",
       "iconUrl": null,
       "icon": "twitch",
       "readmeUrl": "https://app.knobdeck.harshalkudale.com/plugins/twitch-linux/readme.md",
-      "sha256": "84a477824cf64c95a8fcbd1fb0263ebcee0cda95d716bdf0618b3668f540ec84",
+      "sha256": "e5b7182224cb24f4b89821f597a6e02ccf4cfc44f8213c7446adea3fada1c7ac",
       "tags": [
         "Streaming",
         "Communication"
@@ -249,11 +249,11 @@
       "version": "1.1.0",
       "author": "KnobDeck",
       "repositoryUrl": "https://github.com/HarshalKudale/knobdeck-plugins",
-      "artifactUrl": "https://github.com/HarshalKudale/knobdeck-plugins/releases/download/v2026.11.08-1707/twitch_macos_1.1.0.knobdeck",
+      "artifactUrl": "https://github.com/HarshalKudale/knobdeck-plugins/releases/download/v2026.11.10-0720/twitch_macos_1.1.0.knobdeck",
       "iconUrl": null,
       "icon": "twitch",
       "readmeUrl": "https://app.knobdeck.harshalkudale.com/plugins/twitch-macos/readme.md",
-      "sha256": "751977cb72b765ca79d3956ff92691e612f5f74a9e2ab52d8918af2aa82bc823",
+      "sha256": "b866edc25ed23fb7f2592f86cd781cd8f96b07fd897585f625d608eda6d4ce7f",
       "tags": [
         "Streaming",
         "Communication"
@@ -273,11 +273,11 @@
       "version": "1.1.0",
       "author": "KnobDeck",
       "repositoryUrl": "https://github.com/HarshalKudale/knobdeck-plugins",
-      "artifactUrl": "https://github.com/HarshalKudale/knobdeck-plugins/releases/download/v2026.11.08-1707/twitch_windows_1.1.0.knobdeck",
+      "artifactUrl": "https://github.com/HarshalKudale/knobdeck-plugins/releases/download/v2026.11.10-0720/twitch_windows_1.1.0.knobdeck",
       "iconUrl": null,
       "icon": "twitch",
       "readmeUrl": "https://app.knobdeck.harshalkudale.com/plugins/twitch-windows/readme.md",
-      "sha256": "454064edf892efd0676187f91b433b241768133b588fcb45423804def43813da",
+      "sha256": "136cd2c0bd6c49a71675fc3a9e4f4ed48430af25c1939b41f16431a9d0458e9c",
       "tags": [
         "Streaming",
         "Communication"
@@ -297,11 +297,11 @@
       "version": "1.1.0",
       "author": "KnobDeck",
       "repositoryUrl": "https://github.com/HarshalKudale/knobdeck-plugins",
-      "artifactUrl": "https://github.com/HarshalKudale/knobdeck-plugins/releases/download/v2026.11.08-1707/vscode_linux_1.1.0.knobdeck",
+      "artifactUrl": "https://github.com/HarshalKudale/knobdeck-plugins/releases/download/v2026.11.10-0720/vscode_linux_1.1.0.knobdeck",
       "iconUrl": "https://raw.githubusercontent.com/HarshalKudale/knobdeck-plugins/master/vscode/icons/vscode-logo.svg",
       "icon": "vscode-logo.svg",
       "readmeUrl": "https://app.knobdeck.harshalkudale.com/plugins/vscode-linux/readme.md",
-      "sha256": "614ebcc901733545a9b427f57a94d1f7b7824c3975064d59a14f5d2e471a9e8b",
+      "sha256": "8dd64e282402ef8e2d18c230443cdfb206a20da845cdef0af633e9f2a3e35f9c",
       "tags": [
         "Developer tools",
         "Editor"
@@ -321,11 +321,11 @@
       "version": "1.1.0",
       "author": "KnobDeck",
       "repositoryUrl": "https://github.com/HarshalKudale/knobdeck-plugins",
-      "artifactUrl": "https://github.com/HarshalKudale/knobdeck-plugins/releases/download/v2026.11.08-1707/vscode_macos_1.1.0.knobdeck",
+      "artifactUrl": "https://github.com/HarshalKudale/knobdeck-plugins/releases/download/v2026.11.10-0720/vscode_macos_1.1.0.knobdeck",
       "iconUrl": "https://raw.githubusercontent.com/HarshalKudale/knobdeck-plugins/master/vscode/icons/vscode-logo.svg",
       "icon": "vscode-logo.svg",
       "readmeUrl": "https://app.knobdeck.harshalkudale.com/plugins/vscode-macos/readme.md",
-      "sha256": "b394d571da87dbaa8b7f919ad36ffde8417e61f4d8ba55d31ff27b9c45969ee8",
+      "sha256": "bbdfb6cbe3a5450fc2f043df3862e59680809fa62e8476b8ad38874ebe7e34fb",
       "tags": [
         "Developer tools",
         "Editor"
@@ -345,11 +345,11 @@
       "version": "1.1.0",
       "author": "KnobDeck",
       "repositoryUrl": "https://github.com/HarshalKudale/knobdeck-plugins",
-      "artifactUrl": "https://github.com/HarshalKudale/knobdeck-plugins/releases/download/v2026.11.08-1707/vscode_windows_1.1.0.knobdeck",
+      "artifactUrl": "https://github.com/HarshalKudale/knobdeck-plugins/releases/download/v2026.11.10-0720/vscode_windows_1.1.0.knobdeck",
       "iconUrl": "https://raw.githubusercontent.com/HarshalKudale/knobdeck-plugins/master/vscode/icons/vscode-logo.svg",
       "icon": "vscode-logo.svg",
       "readmeUrl": "https://app.knobdeck.harshalkudale.com/plugins/vscode-windows/readme.md",
-      "sha256": "b4b09d22dbafbc589649b7a43c3173bb4a5aab8acbce3b0b639a81141d29278d",
+      "sha256": "428a8a8ce325ffec07e5a2f8d07c90133f11937d6eafc5ec6a96f025cfc0aba1",
       "tags": [
         "Developer tools",
         "Editor"
@@ -369,11 +369,11 @@
       "version": "1.4.0",
       "author": "KnobDeck",
       "repositoryUrl": "https://github.com/HarshalKudale/knobdeck-plugins",
-      "artifactUrl": "https://github.com/HarshalKudale/knobdeck-plugins/releases/download/v2026.11.08-1707/win-tools_windows_1.4.0.knobdeck",
+      "artifactUrl": "https://github.com/HarshalKudale/knobdeck-plugins/releases/download/v2026.11.10-0720/win-tools_windows_1.4.0.knobdeck",
       "iconUrl": null,
       "icon": "app-window",
       "readmeUrl": "https://app.knobdeck.harshalkudale.com/plugins/win-tools/readme.md",
-      "sha256": "24587df48ca9e41cd84eac38d98bf5f498c585a03ff9ae99a0f84cb71d520b9e",
+      "sha256": "86d719f355814d08bba912dd05613e4991bb53ba2f47de5428c15221e99835eb",
       "tags": [
         "Windows",
         "Automation"
@@ -393,11 +393,11 @@
       "version": "1.1.0",
       "author": "KnobDeck",
       "repositoryUrl": "https://github.com/HarshalKudale/knobdeck-plugins",
-      "artifactUrl": "https://github.com/HarshalKudale/knobdeck-plugins/releases/download/v2026.11.08-1707/mac-tools_macos_1.1.0.knobdeck",
+      "artifactUrl": "https://github.com/HarshalKudale/knobdeck-plugins/releases/download/v2026.11.10-0720/mac-tools_macos_1.1.0.knobdeck",
       "iconUrl": null,
       "icon": "app-window",
       "readmeUrl": "https://app.knobdeck.harshalkudale.com/plugins/mac-tools/readme.md",
-      "sha256": "7a39e8353646d36d5f42c8629906223bfee84be1d605ff807c2f753576b46a17",
+      "sha256": "feed4584e63408e302873de561e44c535b4b857e89c469ebb601f5fb08cee0cf",
       "tags": [
         "macOS",
         "Automation"
@@ -417,11 +417,11 @@
       "version": "1.0.0",
       "author": "KnobDeck",
       "repositoryUrl": "https://github.com/HarshalKudale/knobdeck-plugins",
-      "artifactUrl": "https://github.com/HarshalKudale/knobdeck-plugins/releases/download/v2026.11.08-1707/linux-tools_linux_1.0.0.knobdeck",
+      "artifactUrl": "https://github.com/HarshalKudale/knobdeck-plugins/releases/download/v2026.11.10-0720/linux-tools_linux_1.0.0.knobdeck",
       "iconUrl": null,
       "icon": "app-window",
       "readmeUrl": "https://app.knobdeck.harshalkudale.com/plugins/linux-tools/readme.md",
-      "sha256": "f3b15fcf235c597732e0426e7fb63ac09b3decc9ef4993ade095b78621f17073",
+      "sha256": "2510300b8511069d4ff13be649b3cce74f50f824cc4f073ee6951503076c8dac",
       "tags": [
         "Linux",
         "Automation"
@@ -441,11 +441,11 @@
       "version": "1.0.0",
       "author": "KnobDeck",
       "repositoryUrl": "https://github.com/HarshalKudale/knobdeck-plugins",
-      "artifactUrl": "https://github.com/HarshalKudale/knobdeck-plugins/releases/download/v2026.11.08-1707/ytmusic_linux_1.0.0.knobdeck",
+      "artifactUrl": "https://github.com/HarshalKudale/knobdeck-plugins/releases/download/v2026.11.10-0720/ytmusic_linux_1.0.0.knobdeck",
       "iconUrl": null,
       "icon": "music",
       "readmeUrl": "https://app.knobdeck.harshalkudale.com/plugins/ytmusic-linux/readme.md",
-      "sha256": "a471f443f278251c838626eba0a4d2632d3dabd7b77d57921db12ea3b8722e4c",
+      "sha256": "af026960ecc4d69cdd57ba0d5f2301aa33dc47450b5bac0389e696ea98c9b7b8",
       "tags": [
         "Music",
         "Media"
@@ -465,11 +465,11 @@
       "version": "1.0.0",
       "author": "KnobDeck",
       "repositoryUrl": "https://github.com/HarshalKudale/knobdeck-plugins",
-      "artifactUrl": "https://github.com/HarshalKudale/knobdeck-plugins/releases/download/v2026.11.08-1707/ytmusic_macos_1.0.0.knobdeck",
+      "artifactUrl": "https://github.com/HarshalKudale/knobdeck-plugins/releases/download/v2026.11.10-0720/ytmusic_macos_1.0.0.knobdeck",
       "iconUrl": null,
       "icon": "music",
       "readmeUrl": "https://app.knobdeck.harshalkudale.com/plugins/ytmusic-macos/readme.md",
-      "sha256": "31871f99f8174a209ee468be54d1dc598c22b0ad417bf2db82318a4c61184b7f",
+      "sha256": "6d0e1257b7867ebe117d96697aeb06205f6b56036dd2c959a410a82b5bb7b2e7",
       "tags": [
         "Music",
         "Media"
@@ -489,11 +489,11 @@
       "version": "1.0.0",
       "author": "KnobDeck",
       "repositoryUrl": "https://github.com/HarshalKudale/knobdeck-plugins",
-      "artifactUrl": "https://github.com/HarshalKudale/knobdeck-plugins/releases/download/v2026.11.08-1707/ytmusic_windows_1.0.0.knobdeck",
+      "artifactUrl": "https://github.com/HarshalKudale/knobdeck-plugins/releases/download/v2026.11.10-0720/ytmusic_windows_1.0.0.knobdeck",
       "iconUrl": null,
       "icon": "music",
       "readmeUrl": "https://app.knobdeck.harshalkudale.com/plugins/ytmusic-windows/readme.md",
-      "sha256": "154b3a9c2e8a8ddfe94dd15f5147435f4e65f87529a68cc24ab43bd681eade48",
+      "sha256": "e601746f3f102037b1eee19edc1aee7b9185a40fb06ae04fbb7e3d083039fcc2",
       "tags": [
         "Music",
         "Media"
@@ -513,11 +513,11 @@
       "version": "1.0.0",
       "author": "KnobDeck",
       "repositoryUrl": "https://github.com/HarshalKudale/knobdeck-plugins",
-      "artifactUrl": "https://github.com/HarshalKudale/knobdeck-plugins/releases/download/v2026.11.08-1707/streamlabs_macos_1.0.0.knobdeck",
+      "artifactUrl": "https://github.com/HarshalKudale/knobdeck-plugins/releases/download/v2026.11.10-0720/streamlabs_macos_1.0.0.knobdeck",
       "iconUrl": null,
       "icon": "radio-tower",
       "readmeUrl": "https://app.knobdeck.harshalkudale.com/plugins/streamlabs-macos/readme.md",
-      "sha256": "7a846a4e639e6d2fe5756cd4493fde9cab6ac3a8ae55a1ec1959a5a6763b60b9",
+      "sha256": "0c368a5bb49cfdb19c930a2c816d944b204b6dced43f566fe394aa57f822f8f5",
       "tags": [
         "Streaming",
         "Broadcast"
@@ -537,11 +537,11 @@
       "version": "1.0.0",
       "author": "KnobDeck",
       "repositoryUrl": "https://github.com/HarshalKudale/knobdeck-plugins",
-      "artifactUrl": "https://github.com/HarshalKudale/knobdeck-plugins/releases/download/v2026.11.08-1707/streamlabs_windows_1.0.0.knobdeck",
+      "artifactUrl": "https://github.com/HarshalKudale/knobdeck-plugins/releases/download/v2026.11.10-0720/streamlabs_windows_1.0.0.knobdeck",
       "iconUrl": null,
       "icon": "radio-tower",
       "readmeUrl": "https://app.knobdeck.harshalkudale.com/plugins/streamlabs-windows/readme.md",
-      "sha256": "fee17e88e77c7dd3f492460b388ea7474fd06c7209f43cfacaaa00c7f2e6f485",
+      "sha256": "82cbb2b79eb2359dfffade2aa31cb85c81714e3ef9793bebdb1b70f033b39db1",
       "tags": [
         "Streaming",
         "Broadcast"
@@ -561,11 +561,11 @@
       "version": "1.1.0",
       "author": "KnobDeck",
       "repositoryUrl": "https://github.com/HarshalKudale/knobdeck-plugins",
-      "artifactUrl": "https://github.com/HarshalKudale/knobdeck-plugins/releases/download/v2026.11.08-1707/youtube_linux_1.1.0.knobdeck",
+      "artifactUrl": "https://github.com/HarshalKudale/knobdeck-plugins/releases/download/v2026.11.10-0720/youtube_linux_1.1.0.knobdeck",
       "iconUrl": null,
       "icon": "youtube",
       "readmeUrl": "https://app.knobdeck.harshalkudale.com/plugins/youtube-linux/readme.md",
-      "sha256": "0afcbc14482308c0806cd9b92a544b9e7d07aa6db323d931d5ce029b2131dcfb",
+      "sha256": "477a7f499006196279d324fb6058b103c094a9cb52e3de26ad8dd777f792794e",
       "tags": [
         "Streaming",
         "Broadcast"
@@ -585,11 +585,11 @@
       "version": "1.1.0",
       "author": "KnobDeck",
       "repositoryUrl": "https://github.com/HarshalKudale/knobdeck-plugins",
-      "artifactUrl": "https://github.com/HarshalKudale/knobdeck-plugins/releases/download/v2026.11.08-1707/youtube_macos_1.1.0.knobdeck",
+      "artifactUrl": "https://github.com/HarshalKudale/knobdeck-plugins/releases/download/v2026.11.10-0720/youtube_macos_1.1.0.knobdeck",
       "iconUrl": null,
       "icon": "youtube",
       "readmeUrl": "https://app.knobdeck.harshalkudale.com/plugins/youtube-macos/readme.md",
-      "sha256": "d1fa3ca8d4ab1ff0305749b423587dabe57e1a5bbd077ec4f22ebb0a4591c60f",
+      "sha256": "f38a9eac28c11794fe2addf5a33b02ae09dd776ea5fb6847c9891ea3ff578db2",
       "tags": [
         "Streaming",
         "Broadcast"
@@ -609,11 +609,11 @@
       "version": "1.1.0",
       "author": "KnobDeck",
       "repositoryUrl": "https://github.com/HarshalKudale/knobdeck-plugins",
-      "artifactUrl": "https://github.com/HarshalKudale/knobdeck-plugins/releases/download/v2026.11.08-1707/youtube_windows_1.1.0.knobdeck",
+      "artifactUrl": "https://github.com/HarshalKudale/knobdeck-plugins/releases/download/v2026.11.10-0720/youtube_windows_1.1.0.knobdeck",
       "iconUrl": null,
       "icon": "youtube",
       "readmeUrl": "https://app.knobdeck.harshalkudale.com/plugins/youtube-windows/readme.md",
-      "sha256": "a9df59857fbdbec72dc643c8e0ecb87d0427d18af46b02f02b3e786620d1272a",
+      "sha256": "ec003384bbea8b8dadfce7a71411a8b45cc6a5fdcc85decfcffaed4240fa960e",
       "tags": [
         "Streaming",
         "Broadcast"
@@ -633,11 +633,11 @@
       "version": "1.1.0",
       "author": "KnobDeck",
       "repositoryUrl": "https://github.com/HarshalKudale/knobdeck-plugins",
-      "artifactUrl": "https://github.com/HarshalKudale/knobdeck-plugins/releases/download/v2026.11.08-1707/elgato-lights_linux_1.1.0.knobdeck",
+      "artifactUrl": "https://github.com/HarshalKudale/knobdeck-plugins/releases/download/v2026.11.10-0720/elgato-lights_linux_1.1.0.knobdeck",
       "iconUrl": null,
       "icon": "lamp",
       "readmeUrl": "https://app.knobdeck.harshalkudale.com/plugins/elgato-lights-linux/readme.md",
-      "sha256": "93b3726e95497a91cc1e0c29286105de14787c0804f54eef1e083e3a28cd02f0",
+      "sha256": "c1a6316d5a8e9625f8129901fce4cb79ef92d62992edd1613620ddf3a735109e",
       "tags": [
         "Lighting",
         "Streaming"
@@ -657,11 +657,11 @@
       "version": "1.1.0",
       "author": "KnobDeck",
       "repositoryUrl": "https://github.com/HarshalKudale/knobdeck-plugins",
-      "artifactUrl": "https://github.com/HarshalKudale/knobdeck-plugins/releases/download/v2026.11.08-1707/elgato-lights_macos_1.1.0.knobdeck",
+      "artifactUrl": "https://github.com/HarshalKudale/knobdeck-plugins/releases/download/v2026.11.10-0720/elgato-lights_macos_1.1.0.knobdeck",
       "iconUrl": null,
       "icon": "lamp",
       "readmeUrl": "https://app.knobdeck.harshalkudale.com/plugins/elgato-lights-macos/readme.md",
-      "sha256": "c8e9ea713dd3b5b16f38eaf2e21f5b36c3366fb8511357082a2d55d03c4ed711",
+      "sha256": "6bb804841de8a5e69d1a2058a351c30b3769e8f8c18a779f2ebf09bc9665e105",
       "tags": [
         "Lighting",
         "Streaming"
@@ -681,11 +681,11 @@
       "version": "1.1.0",
       "author": "KnobDeck",
       "repositoryUrl": "https://github.com/HarshalKudale/knobdeck-plugins",
-      "artifactUrl": "https://github.com/HarshalKudale/knobdeck-plugins/releases/download/v2026.11.08-1707/elgato-lights_windows_1.1.0.knobdeck",
+      "artifactUrl": "https://github.com/HarshalKudale/knobdeck-plugins/releases/download/v2026.11.10-0720/elgato-lights_windows_1.1.0.knobdeck",
       "iconUrl": null,
       "icon": "lamp",
       "readmeUrl": "https://app.knobdeck.harshalkudale.com/plugins/elgato-lights-windows/readme.md",
-      "sha256": "b5b479acaddf2a7294a6bd18aa9a23de5bbaaf76e7562c381d456fa30303fa73",
+      "sha256": "ce232c3ac6955f4b8648e32e996cc56b003ae7c8233b8ce6fbe40fb19be62a78",
       "tags": [
         "Lighting",
         "Streaming"
@@ -705,11 +705,11 @@
       "version": "1.0.0",
       "author": "KnobDeck",
       "repositoryUrl": "https://github.com/HarshalKudale/knobdeck-plugins",
-      "artifactUrl": "https://github.com/HarshalKudale/knobdeck-plugins/releases/download/v2026.11.08-1707/voicemod_macos_1.0.0.knobdeck",
+      "artifactUrl": "https://github.com/HarshalKudale/knobdeck-plugins/releases/download/v2026.11.10-0720/voicemod_macos_1.0.0.knobdeck",
       "iconUrl": null,
       "icon": "audio-waveform",
       "readmeUrl": "https://app.knobdeck.harshalkudale.com/plugins/voicemod-macos/readme.md",
-      "sha256": "3644a373be6759edd7547b8b7d83349d9060fe50b1044bfa74942a7b9cc5a610",
+      "sha256": "ea3cb875d937c28c621277bc0c44a31e8ccaa84cbb9adeca4ffda770d1a9d633",
       "tags": [
         "Voice",
         "Streaming"
@@ -729,11 +729,11 @@
       "version": "1.0.0",
       "author": "KnobDeck",
       "repositoryUrl": "https://github.com/HarshalKudale/knobdeck-plugins",
-      "artifactUrl": "https://github.com/HarshalKudale/knobdeck-plugins/releases/download/v2026.11.08-1707/voicemod_windows_1.0.0.knobdeck",
+      "artifactUrl": "https://github.com/HarshalKudale/knobdeck-plugins/releases/download/v2026.11.10-0720/voicemod_windows_1.0.0.knobdeck",
       "iconUrl": null,
       "icon": "audio-waveform",
       "readmeUrl": "https://app.knobdeck.harshalkudale.com/plugins/voicemod-windows/readme.md",
-      "sha256": "7d0d1e9efd1c561cf84fd738fbe6b129179a4820c7247a4fc6f2e56a3902dc11",
+      "sha256": "e631f116530da3688ac4b56c6206f1e9c3d8a6c8bd9aaa332332e1d4567837a8",
       "tags": [
         "Voice",
         "Streaming"
@@ -753,11 +753,11 @@
       "version": "1.0.0",
       "author": "KnobDeck",
       "repositoryUrl": "https://github.com/HarshalKudale/knobdeck-plugins",
-      "artifactUrl": "https://github.com/HarshalKudale/knobdeck-plugins/releases/download/v2026.11.08-1707/home-assistant_linux_1.0.0.knobdeck",
+      "artifactUrl": "https://github.com/HarshalKudale/knobdeck-plugins/releases/download/v2026.11.10-0720/home-assistant_linux_1.0.0.knobdeck",
       "iconUrl": null,
       "icon": "house",
       "readmeUrl": "https://app.knobdeck.harshalkudale.com/plugins/home-assistant-linux/readme.md",
-      "sha256": "90736d1946c88cd3232930e4d7a85342ac02e03b9c09df85487069ad58247632",
+      "sha256": "5a70e2454d67034313bdedf66ff01f1b1572c82f02966d30c7b1a8db06f366a8",
       "tags": [
         "Smart home",
         "Automation"
@@ -777,11 +777,11 @@
       "version": "1.0.0",
       "author": "KnobDeck",
       "repositoryUrl": "https://github.com/HarshalKudale/knobdeck-plugins",
-      "artifactUrl": "https://github.com/HarshalKudale/knobdeck-plugins/releases/download/v2026.11.08-1707/home-assistant_macos_1.0.0.knobdeck",
+      "artifactUrl": "https://github.com/HarshalKudale/knobdeck-plugins/releases/download/v2026.11.10-0720/home-assistant_macos_1.0.0.knobdeck",
       "iconUrl": null,
       "icon": "house",
       "readmeUrl": "https://app.knobdeck.harshalkudale.com/plugins/home-assistant-macos/readme.md",
-      "sha256": "5b8a7718f41f37a55d01d9708adcf88b9efe8444766a7cb4197f2c65d7277473",
+      "sha256": "39d31f5a7bf7617358f4ee1a31c438afb4230c1abb18d5605705a5d3a2dc4c29",
       "tags": [
         "Smart home",
         "Automation"
@@ -801,11 +801,11 @@
       "version": "1.0.0",
       "author": "KnobDeck",
       "repositoryUrl": "https://github.com/HarshalKudale/knobdeck-plugins",
-      "artifactUrl": "https://github.com/HarshalKudale/knobdeck-plugins/releases/download/v2026.11.08-1707/home-assistant_windows_1.0.0.knobdeck",
+      "artifactUrl": "https://github.com/HarshalKudale/knobdeck-plugins/releases/download/v2026.11.10-0720/home-assistant_windows_1.0.0.knobdeck",
       "iconUrl": null,
       "icon": "house",
       "readmeUrl": "https://app.knobdeck.harshalkudale.com/plugins/home-assistant-windows/readme.md",
-      "sha256": "48bb304d65c0ecfe533185feaa357cf0e106512852e857439ea5f66dfb5e647e",
+      "sha256": "7f08360ae5b5ab5c17e1d6a41989cfebbc41462ed7dbcc02ab851976498aa804",
       "tags": [
         "Smart home",
         "Automation"
@@ -825,11 +825,11 @@
       "version": "1.0.0",
       "author": "KnobDeck",
       "repositoryUrl": "https://github.com/HarshalKudale/knobdeck-plugins",
-      "artifactUrl": "https://github.com/HarshalKudale/knobdeck-plugins/releases/download/v2026.11.08-1707/hue_linux_1.0.0.knobdeck",
+      "artifactUrl": "https://github.com/HarshalKudale/knobdeck-plugins/releases/download/v2026.11.10-0720/hue_linux_1.0.0.knobdeck",
       "iconUrl": null,
       "icon": "lamp-ceiling",
       "readmeUrl": "https://app.knobdeck.harshalkudale.com/plugins/hue-linux/readme.md",
-      "sha256": "9cf2c6b54000525feaaa0097168efd9d0955c0a0074f696280a4458da7a77038",
+      "sha256": "a21f6e907330a38d8ce9f3cf9ad20cef7f155c546e840cdfb273484e0b44f08c",
       "tags": [
         "Lighting",
         "Smart home"
@@ -849,11 +849,11 @@
       "version": "1.0.0",
       "author": "KnobDeck",
       "repositoryUrl": "https://github.com/HarshalKudale/knobdeck-plugins",
-      "artifactUrl": "https://github.com/HarshalKudale/knobdeck-plugins/releases/download/v2026.11.08-1707/hue_macos_1.0.0.knobdeck",
+      "artifactUrl": "https://github.com/HarshalKudale/knobdeck-plugins/releases/download/v2026.11.10-0720/hue_macos_1.0.0.knobdeck",
       "iconUrl": null,
       "icon": "lamp-ceiling",
       "readmeUrl": "https://app.knobdeck.harshalkudale.com/plugins/hue-macos/readme.md",
-      "sha256": "db123fc29bcc2fa38ff56da0d9ff858c4314ec86fc4c01d4ee977154f0ddf29e",
+      "sha256": "26488b4ab77d4405c894d5793b9a88b8f40fc458108178c72445bf10b73a703a",
       "tags": [
         "Lighting",
         "Smart home"
@@ -873,11 +873,11 @@
       "version": "1.0.0",
       "author": "KnobDeck",
       "repositoryUrl": "https://github.com/HarshalKudale/knobdeck-plugins",
-      "artifactUrl": "https://github.com/HarshalKudale/knobdeck-plugins/releases/download/v2026.11.08-1707/hue_windows_1.0.0.knobdeck",
+      "artifactUrl": "https://github.com/HarshalKudale/knobdeck-plugins/releases/download/v2026.11.10-0720/hue_windows_1.0.0.knobdeck",
       "iconUrl": null,
       "icon": "lamp-ceiling",
       "readmeUrl": "https://app.knobdeck.harshalkudale.com/plugins/hue-windows/readme.md",
-      "sha256": "69666bc5b65eff48e507fc0e87ad8922233f1c1b6462df7dcd539cd40eca3798",
+      "sha256": "401c63d1877ff3160ef1f424a4c844ee34aa1e685fb9d4202e03f12eee534d47",
       "tags": [
         "Lighting",
         "Smart home"
@@ -897,11 +897,11 @@
       "version": "1.0.0",
       "author": "KnobDeck",
       "repositoryUrl": "https://github.com/HarshalKudale/knobdeck-plugins",
-      "artifactUrl": "https://github.com/HarshalKudale/knobdeck-plugins/releases/download/v2026.11.08-1707/game-launcher_linux_1.0.0.knobdeck",
+      "artifactUrl": "https://github.com/HarshalKudale/knobdeck-plugins/releases/download/v2026.11.10-0720/game-launcher_linux_1.0.0.knobdeck",
       "iconUrl": null,
       "icon": "gamepad-2",
       "readmeUrl": "https://app.knobdeck.harshalkudale.com/plugins/game-launcher-linux/readme.md",
-      "sha256": "52b518edcf1a33fc2d72aae3dfe02ca04d97efb37da596a39fa46cf06aee8499",
+      "sha256": "8fa09b96ea159cd7f896fa211cce4d4ff5961364b4d4319ce68a3977782e2a56",
       "tags": [
         "Gaming",
         "Launcher"
@@ -921,11 +921,11 @@
       "version": "1.0.0",
       "author": "KnobDeck",
       "repositoryUrl": "https://github.com/HarshalKudale/knobdeck-plugins",
-      "artifactUrl": "https://github.com/HarshalKudale/knobdeck-plugins/releases/download/v2026.11.08-1707/game-launcher_macos_1.0.0.knobdeck",
+      "artifactUrl": "https://github.com/HarshalKudale/knobdeck-plugins/releases/download/v2026.11.10-0720/game-launcher_macos_1.0.0.knobdeck",
       "iconUrl": null,
       "icon": "gamepad-2",
       "readmeUrl": "https://app.knobdeck.harshalkudale.com/plugins/game-launcher-macos/readme.md",
-      "sha256": "f2d3ff9950a0c2e95c5efd3e25a7eb8b8e21a6a0b81fc5d111ad5daab858b807",
+      "sha256": "c03a08cd84de71c021cfa6175a3ebb0566cbe749fffd9b5c2b35c1bd630e667a",
       "tags": [
         "Gaming",
         "Launcher"
@@ -945,11 +945,11 @@
       "version": "1.0.0",
       "author": "KnobDeck",
       "repositoryUrl": "https://github.com/HarshalKudale/knobdeck-plugins",
-      "artifactUrl": "https://github.com/HarshalKudale/knobdeck-plugins/releases/download/v2026.11.08-1707/game-launcher_windows_1.0.0.knobdeck",
+      "artifactUrl": "https://github.com/HarshalKudale/knobdeck-plugins/releases/download/v2026.11.10-0720/game-launcher_windows_1.0.0.knobdeck",
       "iconUrl": null,
       "icon": "gamepad-2",
       "readmeUrl": "https://app.knobdeck.harshalkudale.com/plugins/game-launcher-windows/readme.md",
-      "sha256": "57d85428188f4a29cf91a21e1f5faacdc293e054cc14501e9a9776e0de6ac677",
+      "sha256": "bd23fb1dd0de8c7b06408fd412be5a9c4e2805c069777947dbf458f254699a3a",
       "tags": [
         "Gaming",
         "Launcher"
@@ -969,11 +969,11 @@
       "version": "1.1.0",
       "author": "KnobDeck",
       "repositoryUrl": "https://github.com/HarshalKudale/knobdeck-plugins",
-      "artifactUrl": "https://github.com/HarshalKudale/knobdeck-plugins/releases/download/v2026.11.08-1707/browser-plugin_linux_1.1.0.knobdeck",
+      "artifactUrl": "https://github.com/HarshalKudale/knobdeck-plugins/releases/download/v2026.11.10-0720/browser-plugin_linux_1.1.0.knobdeck",
       "iconUrl": null,
       "icon": "globe",
       "readmeUrl": "https://app.knobdeck.harshalkudale.com/plugins/browser-plugin-linux/readme.md",
-      "sha256": "4750ced620e0441fbcbdd577507ed3be9881c2bf5f4348d1d64c63b29d359cc4",
+      "sha256": "51408d722f14949dda10f3692c99959ed26fdbd34caa432b925ec6e1ea033141",
       "tags": [
         "Browser",
         "Automation"
@@ -993,11 +993,11 @@
       "version": "1.1.0",
       "author": "KnobDeck",
       "repositoryUrl": "https://github.com/HarshalKudale/knobdeck-plugins",
-      "artifactUrl": "https://github.com/HarshalKudale/knobdeck-plugins/releases/download/v2026.11.08-1707/browser-plugin_macos_1.1.0.knobdeck",
+      "artifactUrl": "https://github.com/HarshalKudale/knobdeck-plugins/releases/download/v2026.11.10-0720/browser-plugin_macos_1.1.0.knobdeck",
       "iconUrl": null,
       "icon": "globe",
       "readmeUrl": "https://app.knobdeck.harshalkudale.com/plugins/browser-plugin-macos/readme.md",
-      "sha256": "2d8cc121d9e1a706315cbb471d0359770ad6d4dda95fa26e7facca52a47ac100",
+      "sha256": "2b6fcbb7c8a44259821a6ada50ce4f5462af99003266bf62bf78319ca423c98e",
       "tags": [
         "Browser",
         "Automation"
@@ -1017,11 +1017,11 @@
       "version": "1.1.0",
       "author": "KnobDeck",
       "repositoryUrl": "https://github.com/HarshalKudale/knobdeck-plugins",
-      "artifactUrl": "https://github.com/HarshalKudale/knobdeck-plugins/releases/download/v2026.11.08-1707/browser-plugin_windows_1.1.0.knobdeck",
+      "artifactUrl": "https://github.com/HarshalKudale/knobdeck-plugins/releases/download/v2026.11.10-0720/browser-plugin_windows_1.1.0.knobdeck",
       "iconUrl": null,
       "icon": "globe",
       "readmeUrl": "https://app.knobdeck.harshalkudale.com/plugins/browser-plugin-windows/readme.md",
-      "sha256": "183011f93a89c2cae25e96b2e3b14109f125e06f241a55dbeac8ba5c84c00a24",
+      "sha256": "724a2c4564c9e7daa5a0fa0afc0618207c8b5ae0682ed8b5fb898447b9a37a9f",
       "tags": [
         "Browser",
         "Automation"
@@ -1041,11 +1041,11 @@
       "version": "1.0.1",
       "author": "KnobDeck",
       "repositoryUrl": "https://github.com/HarshalKudale/knobdeck-plugins",
-      "artifactUrl": "https://github.com/HarshalKudale/knobdeck-plugins/releases/download/v2026.11.08-1707/zoom_macos_1.0.1.knobdeck",
+      "artifactUrl": "https://github.com/HarshalKudale/knobdeck-plugins/releases/download/v2026.11.10-0720/zoom_macos_1.0.1.knobdeck",
       "iconUrl": "https://raw.githubusercontent.com/HarshalKudale/knobdeck-plugins/master/zoom/icons/zoom-logo.svg",
       "icon": "zoom-logo.svg",
       "readmeUrl": "https://app.knobdeck.harshalkudale.com/plugins/zoom-macos/readme.md",
-      "sha256": "8419784fac0dbe90f6eded4ca94334d83e5ec96c07284d219fb8dcc24e4a6354",
+      "sha256": "7a82ba1d0a8ca847e37ef4778cf84521575b3f3f248e18fba2c7b2f6c6b9fb3a",
       "tags": [
         "Communication",
         "Meetings"
@@ -1065,11 +1065,11 @@
       "version": "1.0.1",
       "author": "KnobDeck",
       "repositoryUrl": "https://github.com/HarshalKudale/knobdeck-plugins",
-      "artifactUrl": "https://github.com/HarshalKudale/knobdeck-plugins/releases/download/v2026.11.08-1707/zoom_windows_1.0.1.knobdeck",
+      "artifactUrl": "https://github.com/HarshalKudale/knobdeck-plugins/releases/download/v2026.11.10-0720/zoom_windows_1.0.1.knobdeck",
       "iconUrl": "https://raw.githubusercontent.com/HarshalKudale/knobdeck-plugins/master/zoom/icons/zoom-logo.svg",
       "icon": "zoom-logo.svg",
       "readmeUrl": "https://app.knobdeck.harshalkudale.com/plugins/zoom-windows/readme.md",
-      "sha256": "bef2db55eb75b1323722958a80daf280b3369d7da9f141f6162718334eaa2b7f",
+      "sha256": "065faa650f38daf170251004cc35706754b90c95d1a872e2705e9e3a93daf9e0",
       "tags": [
         "Communication",
         "Meetings"
@@ -1089,11 +1089,11 @@
       "version": "1.0.0",
       "author": "KnobDeck",
       "repositoryUrl": "https://github.com/HarshalKudale/knobdeck-plugins",
-      "artifactUrl": "https://github.com/HarshalKudale/knobdeck-plugins/releases/download/v2026.11.08-1707/slides_linux_1.0.0.knobdeck",
+      "artifactUrl": "https://github.com/HarshalKudale/knobdeck-plugins/releases/download/v2026.11.10-0720/slides_linux_1.0.0.knobdeck",
       "iconUrl": null,
       "icon": "presentation",
       "readmeUrl": "https://app.knobdeck.harshalkudale.com/plugins/slides-linux/readme.md",
-      "sha256": "debf6c17b4f4f47f29fc59e5618706b75cc6c07d49bc74abb2b9a9c972d29ab1",
+      "sha256": "539fec1736a98b69694c74dd7b7d3956bbc013e9a5186d8a00260e03c5438a58",
       "tags": [
         "Productivity",
         "Presentations"
@@ -1113,11 +1113,11 @@
       "version": "1.0.0",
       "author": "KnobDeck",
       "repositoryUrl": "https://github.com/HarshalKudale/knobdeck-plugins",
-      "artifactUrl": "https://github.com/HarshalKudale/knobdeck-plugins/releases/download/v2026.11.08-1707/slides_macos_1.0.0.knobdeck",
+      "artifactUrl": "https://github.com/HarshalKudale/knobdeck-plugins/releases/download/v2026.11.10-0720/slides_macos_1.0.0.knobdeck",
       "iconUrl": null,
       "icon": "presentation",
       "readmeUrl": "https://app.knobdeck.harshalkudale.com/plugins/slides-macos/readme.md",
-      "sha256": "71f82e1f34ab5c5623474160085c083c50fb1dcebf27ceccc83eb77940d225b5",
+      "sha256": "3db13f0d40ea037ce6a9f5aa0918a7acccc812d191e8839247e8a172acff014c",
       "tags": [
         "Productivity",
         "Presentations"
@@ -1137,11 +1137,11 @@
       "version": "1.0.0",
       "author": "KnobDeck",
       "repositoryUrl": "https://github.com/HarshalKudale/knobdeck-plugins",
-      "artifactUrl": "https://github.com/HarshalKudale/knobdeck-plugins/releases/download/v2026.11.08-1707/slides_windows_1.0.0.knobdeck",
+      "artifactUrl": "https://github.com/HarshalKudale/knobdeck-plugins/releases/download/v2026.11.10-0720/slides_windows_1.0.0.knobdeck",
       "iconUrl": null,
       "icon": "presentation",
       "readmeUrl": "https://app.knobdeck.harshalkudale.com/plugins/slides-windows/readme.md",
-      "sha256": "4a2a8682e951a6981198c73a306b12e25ff859f8059b1db16fe8f7e9c3c13494",
+      "sha256": "8caffa105aed671554b78892e090c4564444895f67c53271522c78aaf2a7e811",
       "tags": [
         "Productivity",
         "Presentations"
@@ -1161,11 +1161,11 @@
       "version": "1.1.0",
       "author": "KnobDeck",
       "repositoryUrl": "https://github.com/HarshalKudale/knobdeck-plugins",
-      "artifactUrl": "https://github.com/HarshalKudale/knobdeck-plugins/releases/download/v2026.11.08-1707/intellij_linux_1.1.0.knobdeck",
+      "artifactUrl": "https://github.com/HarshalKudale/knobdeck-plugins/releases/download/v2026.11.10-0720/intellij_linux_1.1.0.knobdeck",
       "iconUrl": "https://raw.githubusercontent.com/HarshalKudale/knobdeck-plugins/master/intellij/icons/intellij-logo.svg",
       "icon": "intellij-logo.svg",
       "readmeUrl": "https://app.knobdeck.harshalkudale.com/plugins/intellij-linux/readme.md",
-      "sha256": "53cf2bf89cc0ba77e4a9f121c9e965541399196a6203b501bf94f7376f5efa41",
+      "sha256": "072f6cb7e93da9a94251eff02730f8ef6fa05325ec0b727f6fa8e1945e97edc0",
       "tags": [
         "Developer tools",
         "IDE"
@@ -1185,11 +1185,11 @@
       "version": "1.1.0",
       "author": "KnobDeck",
       "repositoryUrl": "https://github.com/HarshalKudale/knobdeck-plugins",
-      "artifactUrl": "https://github.com/HarshalKudale/knobdeck-plugins/releases/download/v2026.11.08-1707/intellij_macos_1.1.0.knobdeck",
+      "artifactUrl": "https://github.com/HarshalKudale/knobdeck-plugins/releases/download/v2026.11.10-0720/intellij_macos_1.1.0.knobdeck",
       "iconUrl": "https://raw.githubusercontent.com/HarshalKudale/knobdeck-plugins/master/intellij/icons/intellij-logo.svg",
       "icon": "intellij-logo.svg",
       "readmeUrl": "https://app.knobdeck.harshalkudale.com/plugins/intellij-macos/readme.md",
-      "sha256": "4fddc015dcade875aa66adecb647b99336985738fc4a8392072db5515c2789e4",
+      "sha256": "8ac89c06599b983fc7790e071e5d1f30014cd5d3df46f4cb7fd05fbbe1804df1",
       "tags": [
         "Developer tools",
         "IDE"
@@ -1209,11 +1209,11 @@
       "version": "1.1.0",
       "author": "KnobDeck",
       "repositoryUrl": "https://github.com/HarshalKudale/knobdeck-plugins",
-      "artifactUrl": "https://github.com/HarshalKudale/knobdeck-plugins/releases/download/v2026.11.08-1707/intellij_windows_1.1.0.knobdeck",
+      "artifactUrl": "https://github.com/HarshalKudale/knobdeck-plugins/releases/download/v2026.11.10-0720/intellij_windows_1.1.0.knobdeck",
       "iconUrl": "https://raw.githubusercontent.com/HarshalKudale/knobdeck-plugins/master/intellij/icons/intellij-logo.svg",
       "icon": "intellij-logo.svg",
       "readmeUrl": "https://app.knobdeck.harshalkudale.com/plugins/intellij-windows/readme.md",
-      "sha256": "8137ff0bc25542e039a2af0e17f13e35406d6a321eee4e0faaab2c40fdc120a9",
+      "sha256": "aad172a6e2dd383e548d1bc35f7665d5781a74cc1bc3648f1b1667717a5bc639",
       "tags": [
         "Developer tools",
         "IDE"
@@ -1233,11 +1233,11 @@
       "version": "1.1.0",
       "author": "KnobDeck",
       "repositoryUrl": "https://github.com/HarshalKudale/knobdeck-plugins",
-      "artifactUrl": "https://github.com/HarshalKudale/knobdeck-plugins/releases/download/v2026.11.08-1707/vlc_linux_1.1.0.knobdeck",
+      "artifactUrl": "https://github.com/HarshalKudale/knobdeck-plugins/releases/download/v2026.11.10-0720/vlc_linux_1.1.0.knobdeck",
       "iconUrl": null,
       "icon": null,
       "readmeUrl": "https://app.knobdeck.harshalkudale.com/plugins/vlc-linux/readme.md",
-      "sha256": "518f1024957b820a11cc9eca9fda90d38fa3efb0992094bc11b946bd45297186",
+      "sha256": "970f8389d930cce10b25ffcba9828560fee02939abbffd04200701c8b3ec88e5",
       "tags": [
         "Media",
         "Playback"
@@ -1257,11 +1257,11 @@
       "version": "1.1.0",
       "author": "KnobDeck",
       "repositoryUrl": "https://github.com/HarshalKudale/knobdeck-plugins",
-      "artifactUrl": "https://github.com/HarshalKudale/knobdeck-plugins/releases/download/v2026.11.08-1707/vlc_macos_1.1.0.knobdeck",
+      "artifactUrl": "https://github.com/HarshalKudale/knobdeck-plugins/releases/download/v2026.11.10-0720/vlc_macos_1.1.0.knobdeck",
       "iconUrl": null,
       "icon": null,
       "readmeUrl": "https://app.knobdeck.harshalkudale.com/plugins/vlc-macos/readme.md",
-      "sha256": "b4040cdffb2910883e34770ededca6846470dbd8bbf8856dc7f32f8233fecf2c",
+      "sha256": "083250d7fcba60d7014ac1a08bfba653333ec9de5d21927b65b8bf7b10d0b08b",
       "tags": [
         "Media",
         "Playback"
@@ -1281,11 +1281,11 @@
       "version": "1.1.0",
       "author": "KnobDeck",
       "repositoryUrl": "https://github.com/HarshalKudale/knobdeck-plugins",
-      "artifactUrl": "https://github.com/HarshalKudale/knobdeck-plugins/releases/download/v2026.11.08-1707/vlc_windows_1.1.0.knobdeck",
+      "artifactUrl": "https://github.com/HarshalKudale/knobdeck-plugins/releases/download/v2026.11.10-0720/vlc_windows_1.1.0.knobdeck",
       "iconUrl": null,
       "icon": null,
       "readmeUrl": "https://app.knobdeck.harshalkudale.com/plugins/vlc-windows/readme.md",
-      "sha256": "d1ab7604337497fad8e6001b1af2aff67769331c69091b3c73db0f863a7c4ac2",
+      "sha256": "7cd1dc1cb58d005607d65cf71276b1e581bf870ce1528fd1a7ed7c737dd4307c",
       "tags": [
         "Media",
         "Playback"
@@ -1305,11 +1305,11 @@
       "version": "1.1.0",
       "author": "KnobDeck",
       "repositoryUrl": "https://github.com/HarshalKudale/knobdeck-plugins",
-      "artifactUrl": "https://github.com/HarshalKudale/knobdeck-plugins/releases/download/v2026.11.08-1707/weather_linux_1.1.0.knobdeck",
+      "artifactUrl": "https://github.com/HarshalKudale/knobdeck-plugins/releases/download/v2026.11.10-0720/weather_linux_1.1.0.knobdeck",
       "iconUrl": null,
       "icon": "cloud-sun",
       "readmeUrl": "https://app.knobdeck.harshalkudale.com/plugins/weather-linux/readme.md",
-      "sha256": "f817bd740c6c4db1d5dc6806d34b9c0632020b97cb7d450270bedb65648a5c3e",
+      "sha256": "5de648e2a3d5d582aa9428e1f2a4bb88487950bbb3ebed59ef154ec77f37c8fe",
       "tags": [
         "Weather",
         "Information"
@@ -1329,11 +1329,11 @@
       "version": "1.1.0",
       "author": "KnobDeck",
       "repositoryUrl": "https://github.com/HarshalKudale/knobdeck-plugins",
-      "artifactUrl": "https://github.com/HarshalKudale/knobdeck-plugins/releases/download/v2026.11.08-1707/weather_macos_1.1.0.knobdeck",
+      "artifactUrl": "https://github.com/HarshalKudale/knobdeck-plugins/releases/download/v2026.11.10-0720/weather_macos_1.1.0.knobdeck",
       "iconUrl": null,
       "icon": "cloud-sun",
       "readmeUrl": "https://app.knobdeck.harshalkudale.com/plugins/weather-macos/readme.md",
-      "sha256": "fcbadc58adeba6e19a4f61d2251fb6fc84eb3466346f8fffc4623e28430e6057",
+      "sha256": "1a92a10a04694a85bca585fe73d3ea259fee3604b96e218e2c848c9e83837f7b",
       "tags": [
         "Weather",
         "Information"
@@ -1353,11 +1353,11 @@
       "version": "1.1.0",
       "author": "KnobDeck",
       "repositoryUrl": "https://github.com/HarshalKudale/knobdeck-plugins",
-      "artifactUrl": "https://github.com/HarshalKudale/knobdeck-plugins/releases/download/v2026.11.08-1707/weather_windows_1.1.0.knobdeck",
+      "artifactUrl": "https://github.com/HarshalKudale/knobdeck-plugins/releases/download/v2026.11.10-0720/weather_windows_1.1.0.knobdeck",
       "iconUrl": null,
       "icon": "cloud-sun",
       "readmeUrl": "https://app.knobdeck.harshalkudale.com/plugins/weather-windows/readme.md",
-      "sha256": "765c9eeee969d582d075188c58580336d160351e8638a1ba6dcfab283b5fe702",
+      "sha256": "3523d256a626f6b3172a70f3d327d07f369054e9b320d53c58dd5f4ba0f4f08a",
       "tags": [
         "Weather",
         "Information"
@@ -1377,11 +1377,11 @@
       "version": "1.1.0",
       "author": "KnobDeck",
       "repositoryUrl": "https://github.com/HarshalKudale/knobdeck-plugins",
-      "artifactUrl": "https://github.com/HarshalKudale/knobdeck-plugins/releases/download/v2026.11.08-1707/clocks_linux_1.1.0.knobdeck",
+      "artifactUrl": "https://github.com/HarshalKudale/knobdeck-plugins/releases/download/v2026.11.10-0720/clocks_linux_1.1.0.knobdeck",
       "iconUrl": null,
       "icon": "clock",
       "readmeUrl": "https://app.knobdeck.harshalkudale.com/plugins/clocks-linux/readme.md",
-      "sha256": "8de5c9fa50fa7eb811c50bef3c4ab20aa4f271a853d0666f9486e4c8667cafe3",
+      "sha256": "fad4c394252c5b19fc6061d0077783adcb5f2a6c0edc177ca55a1a7a0f8d2b78",
       "tags": [
         "Time",
         "Productivity"
@@ -1401,11 +1401,11 @@
       "version": "1.1.0",
       "author": "KnobDeck",
       "repositoryUrl": "https://github.com/HarshalKudale/knobdeck-plugins",
-      "artifactUrl": "https://github.com/HarshalKudale/knobdeck-plugins/releases/download/v2026.11.08-1707/clocks_macos_1.1.0.knobdeck",
+      "artifactUrl": "https://github.com/HarshalKudale/knobdeck-plugins/releases/download/v2026.11.10-0720/clocks_macos_1.1.0.knobdeck",
       "iconUrl": null,
       "icon": "clock",
       "readmeUrl": "https://app.knobdeck.harshalkudale.com/plugins/clocks-macos/readme.md",
-      "sha256": "e39412b6778a0e92d29da98c7caea90024f98c900cdf8ffbf4b1ae05da5b7a8f",
+      "sha256": "df9a45c43cae369ad13d6bc9b087eea850d4ad353340b8cf837d71b8bfc298a7",
       "tags": [
         "Time",
         "Productivity"
@@ -1425,11 +1425,11 @@
       "version": "1.1.0",
       "author": "KnobDeck",
       "repositoryUrl": "https://github.com/HarshalKudale/knobdeck-plugins",
-      "artifactUrl": "https://github.com/HarshalKudale/knobdeck-plugins/releases/download/v2026.11.08-1707/clocks_windows_1.1.0.knobdeck",
+      "artifactUrl": "https://github.com/HarshalKudale/knobdeck-plugins/releases/download/v2026.11.10-0720/clocks_windows_1.1.0.knobdeck",
       "iconUrl": null,
       "icon": "clock",
       "readmeUrl": "https://app.knobdeck.harshalkudale.com/plugins/clocks-windows/readme.md",
-      "sha256": "5c1888e098b89f6adccf7a262da63586aed282a181cea10a255c46a17d72b7cb",
+      "sha256": "149d236e247a68e48fe48b16b09bb4eb91e255f7b3536c24cbc9cc3932c69315",
       "tags": [
         "Time",
         "Productivity"
@@ -1449,11 +1449,11 @@
       "version": "2.0.0",
       "author": "KnobDeck",
       "repositoryUrl": "https://github.com/HarshalKudale/knobdeck-plugins",
-      "artifactUrl": "https://github.com/HarshalKudale/knobdeck-plugins/releases/download/v2026.11.08-1707/ai-stats_linux_2.0.0.knobdeck",
+      "artifactUrl": "https://github.com/HarshalKudale/knobdeck-plugins/releases/download/v2026.11.10-0720/ai-stats_linux_2.0.0.knobdeck",
       "iconUrl": null,
       "icon": "gauge",
       "readmeUrl": "https://app.knobdeck.harshalkudale.com/plugins/ai-stats-linux/readme.md",
-      "sha256": "beaceea8089688d03f82093cee57215863bc034de28d3cbc744b17af7b884767",
+      "sha256": "7fa429955254f3e144721065d39c5d8463a226cb5d3a474422c32be8e466909b",
       "tags": [
         "Developer tools",
         "AI"
@@ -1473,11 +1473,11 @@
       "version": "2.0.0",
       "author": "KnobDeck",
       "repositoryUrl": "https://github.com/HarshalKudale/knobdeck-plugins",
-      "artifactUrl": "https://github.com/HarshalKudale/knobdeck-plugins/releases/download/v2026.11.08-1707/ai-stats_macos_2.0.0.knobdeck",
+      "artifactUrl": "https://github.com/HarshalKudale/knobdeck-plugins/releases/download/v2026.11.10-0720/ai-stats_macos_2.0.0.knobdeck",
       "iconUrl": null,
       "icon": "gauge",
       "readmeUrl": "https://app.knobdeck.harshalkudale.com/plugins/ai-stats-macos/readme.md",
-      "sha256": "3c9cc25ea3859097897852b9bb7f223da46c85a8fae780137e020739d662475d",
+      "sha256": "5c1379237ac129713042ad1ec201d162f455e91d1d4ab075a7c4e4fd77e177ab",
       "tags": [
         "Developer tools",
         "AI"
@@ -1497,11 +1497,11 @@
       "version": "2.0.0",
       "author": "KnobDeck",
       "repositoryUrl": "https://github.com/HarshalKudale/knobdeck-plugins",
-      "artifactUrl": "https://github.com/HarshalKudale/knobdeck-plugins/releases/download/v2026.11.08-1707/ai-stats_windows_2.0.0.knobdeck",
+      "artifactUrl": "https://github.com/HarshalKudale/knobdeck-plugins/releases/download/v2026.11.10-0720/ai-stats_windows_2.0.0.knobdeck",
       "iconUrl": null,
       "icon": "gauge",
       "readmeUrl": "https://app.knobdeck.harshalkudale.com/plugins/ai-stats-windows/readme.md",
-      "sha256": "8135786bd6604c97dc020d51143c053388de7e95e7ffbf0a725cf13545173868",
+      "sha256": "f5da0f7d3463500f4a5c11d33729105ebdbf7a6ac44aa39823170d3bf414e8c5",
       "tags": [
         "Developer tools",
         "AI"
