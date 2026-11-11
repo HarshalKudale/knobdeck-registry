@@ -1,0 +1,59 @@
+# Manual run (Actions > promote > Run workflow) that offers a published KnobDeck release to installed
+# apps: it writes public/updates/<os>/latest.json and commits (the push deploys). Run it after the
+# release's smoke test passed. To roll back, promote the previous version again.
+#  - darwin:  the in-app updater (worker route /updates/darwin/<arch>/<version>); needs the release's
+#             KnobDeck.app.tar.gz and its .sig (built with TAURI_SIGNING_PRIVATE_KEY)
+#  - linux, windows: a "new version" notice with a link (the Store updates Store installs itself)
+name: promote
+on:
+  workflow_dispatch:
+    inputs:
+      os:
+        description: Which apps to offer it to
+        type: choice
+        options: [darwin, linux, windows]
+      version:
+        description: Version to offer, e.g. 1.0.1 (its release tag is v1.0.1 in the releases repo)
+        required: true
+      notes:
+        description: One-line release notes shown in the app
+        required: false
+permissions:
+  contents: write
+concurrency:
+  group: promote
+  cancel-in-progress: false
+env:
+  RELEASES_REPO: ${{ vars.RELEASES_REPO || 'HarshalKudale/knobdeck-releases' }}
+  GH_TOKEN: ${{ github.token }}
+jobs:
+  promote:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Write the manifest
+        env:
+          OS: ${{ inputs.os }}
+          VERSION: ${{ inputs.version }}
+          NOTES: ${{ inputs.notes }}
+        run: node scripts/promote.mjs
+      # Out of pre-release and marked latest, so releases/latest/download/KnobDeck.dmg (the
+      # website's download link) points at this version from now on.
+      - name: Mark the release latest
+        env:
+          GH_TOKEN: ${{ secrets.RELEASES_TOKEN }}
+          VERSION: ${{ inputs.version }}
+        run: |
+          TAG="v${VERSION#v}"
+          if [ -z "$GH_TOKEN" ]; then
+            echo "::warning::No RELEASES_TOKEN secret: $TAG stays a pre-release, the website link doesn't move."
+          elif gh release view "$TAG" -R "$RELEASES_REPO" >/dev/null 2>&1; then
+            gh release edit "$TAG" -R "$RELEASES_REPO" --prerelease=false --latest
+          else
+            echo "::notice::$RELEASES_REPO has no release $TAG; nothing to mark."
+          fi
+      - name: Commit
+        run: |
+          git config user.name HarshalKudale && git config user.email harshalkudale56@gmail.com
+          git add public/updates
+          git diff --cached --quiet || { git commit -m "Updates: offer ${{ inputs.version }} to ${{ inputs.os }}" && git push; }
