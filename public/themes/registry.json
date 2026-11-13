@@ -1,12 +1,12 @@
 {
-  "tag": "v2026.11.12-0457",
+  "tag": "v2026.11.12-1232",
   "themes": [
     {
       "id": "analog",
       "name": "Analog",
       "author": "KnobDeck",
       "version": "1.1.0",
-      "zipUrl": "https://github.com/HarshalKudale/knobdeck-themes/releases/download/v2026.11.12-0457/analog.zip",
+      "zipUrl": "https://github.com/HarshalKudale/knobdeck-themes/releases/download/v2026.11.12-1232/analog.zip",
       "sha256": "8d76a4cd2eacc621ed81e805fb4c8eb5e8426ec682ec66b513d99e2325376ed8",
       "preview": "https://raw.githubusercontent.com/HarshalKudale/knobdeck-themes/master/previews/analog.gif"
     },
@@ -15,7 +15,7 @@
       "name": "Aurora",
       "author": "KnobDeck",
       "version": "1.1.0",
-      "zipUrl": "https://github.com/HarshalKudale/knobdeck-themes/releases/download/v2026.11.12-0457/aurora.zip",
+      "zipUrl": "https://github.com/HarshalKudale/knobdeck-themes/releases/download/v2026.11.12-1232/aurora.zip",
       "sha256": "ae872a1ca9d10fcbef5bb1e9dd8fcf697cec1c13a65aa9f1374e787efddf3283",
       "preview": "https://raw.githubusercontent.com/HarshalKudale/knobdeck-themes/master/previews/aurora.gif"
     },
@@ -24,7 +24,7 @@
       "name": "Bloom",
       "author": "KnobDeck",
       "version": "1.1.0",
-      "zipUrl": "https://github.com/HarshalKudale/knobdeck-themes/releases/download/v2026.11.12-0457/bloom.zip",
+      "zipUrl": "https://github.com/HarshalKudale/knobdeck-themes/releases/download/v2026.11.12-1232/bloom.zip",
       "sha256": "6fab4e81d6e9b77b80612b72e8d0931cfd04af15bb941ffc475ad80615071035",
       "preview": "https://raw.githubusercontent.com/HarshalKudale/knobdeck-themes/master/previews/bloom.gif"
     },
@@ -33,7 +33,7 @@
       "name": "Contrast",
       "author": "KnobDeck",
       "version": "1.1.0",
-      "zipUrl": "https://github.com/HarshalKudale/knobdeck-themes/releases/download/v2026.11.12-0457/contrast.zip",
+      "zipUrl": "https://github.com/HarshalKudale/knobdeck-themes/releases/download/v2026.11.12-1232/contrast.zip",
       "sha256": "b86e8b0072db43ebe3b51716a76db3e5438a64150650cd80af7ab4157d94c7b6",
       "preview": "https://raw.githubusercontent.com/HarshalKudale/knobdeck-themes/master/previews/contrast.gif"
     },
@@ -42,7 +42,7 @@
       "name": "Ember",
       "author": "KnobDeck",
       "version": "1.1.0",
-      "zipUrl": "https://github.com/HarshalKudale/knobdeck-themes/releases/download/v2026.11.12-0457/ember.zip",
+      "zipUrl": "https://github.com/HarshalKudale/knobdeck-themes/releases/download/v2026.11.12-1232/ember.zip",
       "sha256": "02e6c217d47480c759ba5059bb9501460eb2a94077d59e748702d37cfdd3f5a2",
       "preview": "https://raw.githubusercontent.com/HarshalKudale/knobdeck-themes/master/previews/ember.gif"
     },
@@ -51,7 +51,7 @@
       "name": "Frost",
       "author": "KnobDeck",
       "version": "1.1.0",
-      "zipUrl": "https://github.com/HarshalKudale/knobdeck-themes/releases/download/v2026.11.12-0457/frost.zip",
+      "zipUrl": "https://github.com/HarshalKudale/knobdeck-themes/releases/download/v2026.11.12-1232/frost.zip",
       "sha256": "01b7573306938d8bd278f92b4dbed1b0777386bcaf27aa761c254e6116c074bd",
       "preview": "https://raw.githubusercontent.com/HarshalKudale/knobdeck-themes/master/previews/frost.gif"
     },
@@ -60,16 +60,25 @@
       "name": "Graphite",
       "author": "KnobDeck",
       "version": "1.1.0",
-      "zipUrl": "https://github.com/HarshalKudale/knobdeck-themes/releases/download/v2026.11.12-0457/graphite.zip",
+      "zipUrl": "https://github.com/HarshalKudale/knobdeck-themes/releases/download/v2026.11.12-1232/graphite.zip",
       "sha256": "f47a867a598c80f6bfcf152e0f61caf6a40847f7faf57906c453aa6b6d52f151",
       "preview": "https://raw.githubusercontent.com/HarshalKudale/knobdeck-themes/master/previews/graphite.gif"
+    },
+    {
+      "id": "lagoon",
+      "name": "Lagoon",
+      "author": "KnobDeck",
+      "version": "1.0.0",
+      "zipUrl": "https://github.com/HarshalKudale/knobdeck-themes/releases/download/v2026.11.12-1232/lagoon.zip",
+      "sha256": "dbcb4d1f094efc3fc94b26a544fa76ca0f1f4117cd2feabb06d491e62022b8fa",
+      "preview": "https://raw.githubusercontent.com/HarshalKudale/knobdeck-themes/master/previews/lagoon.gif"
     },
     {
       "id": "mono-line",
       "name": "Mono Line",
       "author": "KnobDeck",
       "version": "1.1.0",
-      "zipUrl": "https://github.com/HarshalKudale/knobdeck-themes/releases/download/v2026.11.12-0457/mono-line.zip",
+      "zipUrl": "https://github.com/HarshalKudale/knobdeck-themes/releases/download/v2026.11.12-1232/mono-line.zip",
       "sha256": "216be57b4695ea351a6ee7e5cdebd389915329d8990ad6c1752ba153ab24ee4f",
       "preview": "https://raw.githubusercontent.com/HarshalKudale/knobdeck-themes/master/previews/mono-line.gif"
     },
@@ -78,7 +87,7 @@
       "name": "Neon Grid",
       "author": "KnobDeck",
       "version": "1.1.0",
-      "zipUrl": "https://github.com/HarshalKudale/knobdeck-themes/releases/download/v2026.11.12-0457/neon-grid.zip",
+      "zipUrl": "https://github.com/HarshalKudale/knobdeck-themes/releases/download/v2026.11.12-1232/neon-grid.zip",
       "sha256": "a647b03edcf0ba1892a7982b2e56578cee3bbaa49bd913ce4a28e5953abc5e53",
       "preview": "https://raw.githubusercontent.com/HarshalKudale/knobdeck-themes/master/previews/neon-grid.gif"
     },
@@ -87,7 +96,7 @@
       "name": "Paper",
       "author": "KnobDeck",
       "version": "1.1.0",
-      "zipUrl": "https://github.com/HarshalKudale/knobdeck-themes/releases/download/v2026.11.12-0457/paper.zip",
+      "zipUrl": "https://github.com/HarshalKudale/knobdeck-themes/releases/download/v2026.11.12-1232/paper.zip",
       "sha256": "346410debfc3ad3a52bf78ce298d06fd6092382308fb1e11d99514c38926ea2d",
       "preview": "https://raw.githubusercontent.com/HarshalKudale/knobdeck-themes/master/previews/paper.gif"
     },
@@ -96,7 +105,7 @@
       "name": "Phosphor",
       "author": "KnobDeck",
       "version": "1.1.0",
-      "zipUrl": "https://github.com/HarshalKudale/knobdeck-themes/releases/download/v2026.11.12-0457/phosphor.zip",
+      "zipUrl": "https://github.com/HarshalKudale/knobdeck-themes/releases/download/v2026.11.12-1232/phosphor.zip",
       "sha256": "45771f81b9878276bf22e9d2b51a255872e9ea9d777f96bba8be6afa20ca675a",
       "preview": "https://raw.githubusercontent.com/HarshalKudale/knobdeck-themes/master/previews/phosphor.gif"
     },
@@ -105,7 +114,7 @@
       "name": "Studio",
       "author": "KnobDeck",
       "version": "1.1.0",
-      "zipUrl": "https://github.com/HarshalKudale/knobdeck-themes/releases/download/v2026.11.12-0457/studio.zip",
+      "zipUrl": "https://github.com/HarshalKudale/knobdeck-themes/releases/download/v2026.11.12-1232/studio.zip",
       "sha256": "958fd6650b64e86f96530256fb136ae20f12ab0d416e33deaaf6b7e1ebac82ba",
       "preview": "https://raw.githubusercontent.com/HarshalKudale/knobdeck-themes/master/previews/studio.gif"
     }
