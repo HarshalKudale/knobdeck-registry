@@ -9,7 +9,6 @@ updates never redeploy checkout or licensing.
 | `/plugins/registry.json` | Plugin registry (desktop app, website `/plugins`) |
 | `/plugins/<id>/readme.md` | Plugin readmes, the registry's `readmeUrl` |
 | `/themes/registry.json` | Dial theme registry |
-| `POST /api/discord/token` | `{ code }` or `{ refresh_token }` → Discord tokens for the Discord plugin; holds the client secret |
 | `POST /api/google/token` | OAuth token form (`authorization_code` with PKCE, or `refresh_token`) → Google tokens for the YouTube plugin; holds the client secret |
 
 ## Develop and deploy
@@ -18,13 +17,12 @@ updates never redeploy checkout or licensing.
 npm install
 cp .dev.vars.example .dev.vars   # local secrets
 npm run dev
-npx wrangler secret put DISCORD_CLIENT_SECRET
 npx wrangler secret put GOOGLE_CLIENT_SECRET
 npm run deploy
 ```
 
-The Discord application needs `http://127.0.0.1:31416/callback` as a redirect URI. The Google OAuth
-client (Desktop app, id in `wrangler.jsonc`) is used only with `http://127.0.0.1:47812/callback`.
+The Google OAuth client (Desktop app, id in `wrangler.jsonc`) is used only with
+`http://127.0.0.1:47812/callback`.
 
 ## Registries
 

@@ -12,8 +12,6 @@
   "workers_dev": false,
   "observability": { "enabled": true },
   "vars": {
-    // Public Discord application id. Secret: `wrangler secret put DISCORD_CLIENT_SECRET`.
-    "DISCORD_CLIENT_ID": "1527677329524916424",
     // Public Google OAuth client id (Desktop app) used by the YouTube plugin; must be the same id
     // the plugin is built with (GOOGLE_CLIENT_ID repo variable). Secret: `wrangler secret put GOOGLE_CLIENT_SECRET`.
     "GOOGLE_CLIENT_ID": "894732749854-3bmm29lr28uouspd42fpc5649qqrsqqr.apps.googleusercontent.com"
